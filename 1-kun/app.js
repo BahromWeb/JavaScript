@@ -1,39 +1,41 @@
 
-// 1. Son juftmi yoki toqmi?
-//  Sharti:
-// Son beriladi. Agar son juft bo‘lsa "Juft", agar toq bo‘lsa "toq" so‘zini qaytaring.
+// Berilgan son musbat bo‘lsa true, aks holda false qaytarsin.
 
-// const checkNumber=(num)=>{
-//     return num%2===0?"Juft":"toq"
+// const musbatNumber = (number) => {
+//   if (number > 0) {
+//     console.log("Son 0 dan katta");
+//     return true;
+//   } else if (number === 0) {
+//     console.log("Son 0 ga teng");
+//     return false;
+//   } else {
+//     console.log("Son 0 dan kichkina");
+//     return false;
+//   }
+// };
+
+// console.log(musbatNumber(0));   
+
+// Son toqmi yoki juftmi aniqlab, "toq" yoki "juft" matnini qaytar.
+
+// const oddorEven=(number)=>{
+//     if(number%2==0){
+//         return "Juft son"
+//     }else{
+//         return "Toq son"
+//     }
 // }
 
-// console.log(checkNumber(3))
-// console.log(checkNumber(6))
-// console.log(checkNumber(8))
+// console.log(oddorEven(4))
+// console.log(oddorEven(5))
+// console.log(oddorEven(0))
 
-//  2. Ikkita sonning yig'indisi
-//  Sharti:
-// Ikkita son berilgan. Ularning yig'indisini qaytaring.
+// Berilgan ikki sonning yig‘indisini qaytaring.
 
-// const sum=(a, b) => a+b
+const sum=(a, b)=>{
+    let resualt=a+b
+    return resualt
+}   
 
-// console.log(sum(2, 4))
-// console.log(sum(12, 5))
 
-// 3. Massiv uzunligini topish
-//  Sharti:
-// Berilgan massivning uzunligini (nechta element borligini) qaytaring.
-
-// let arr = [2, 45, 56, 6, 45, 23, 67, 68];
-
-// const lengthOfArray = (arr) => arr.length;
-
-// console.log(lengthOfArray(arr));
-
-// 4. Massivga element qo‘shish
-// Sharti:
-// Massiv va bitta element beriladi. Uni massiv oxiriga qo‘shing.
-
-const addToArray=()=>{
-    
-}
+console.log(sum(23, 45))
