@@ -95,22 +95,23 @@
 
 // Berilgan matnda nechta unli harf (a, e, i, o, u) borligini hisoblang.
 
-const countVowels=(text)=>{
-    let vowels=['a','e','i','o','u']
-    let count=0
+// const countVowels=(text)=>{
+//     let vowels=['a','e','i','o','u']
+//     let count=0
 
-    for(let i=0; i<text.length; i++){
-        let char=text[i].toLowerCase();
-    }
+//     for(let i=0; i<text.length; i++){
+//         let char=text[i].toLowerCase();
+//     }
 
-    if(vowels.includes(char)){
-        count++
-    }
+//     if(vowels.includes(char)){
+//         count++
+//     }
 
-    return count
-}
+//     return count
+// }
 
 
-console.log(countVowels("Bahrom"))
-console.log(countVowels("UZBEKISTAN"))
-console.log(countVowels("JavaScript"))
+// console.log(countVowels("Bahrom"))
+// console.log(countVowels("UZBEKISTAN"))
+// console.log(countVowels("JavaScript"))
+
