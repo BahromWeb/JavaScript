@@ -243,6 +243,12 @@
 
 
 
+let a=456
+
+let a1=a%100
+
+console.log(a1)
+
 
 
 

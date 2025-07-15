@@ -284,3 +284,4 @@
 // console.log("Qolgan yuzasi:", remainingArea, "kvadrat birlik.");
 
 
+
