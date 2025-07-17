@@ -86,6 +86,23 @@
 
 // masala 4
 
+
+
+let a=23
+let b=45
+let res="+"
+
+switch(res){
+  case "+":a+b; break;
+  case "-":a-b; break;
+  case "-":a*b; break;
+  case "-":a/b; break;
+  default: console.log("Bunday amal mavjud emas"); break;
+}
+
+console.log()
+
+
 // let oy=9
 
 // switch (oy) {
