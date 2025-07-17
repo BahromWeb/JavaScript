@@ -1,13 +1,5 @@
 
 
-let a=27
-
-switch(a/Math.abs(a)){
-    case 1: a++; break;
-    case -1: a--; break;
-    default : console.lo
-}
-
 // Tanlash operatoriga oid masalalar :
 // masala 1
 
