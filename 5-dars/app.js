@@ -86,23 +86,6 @@
 
 // masala 4
 
-
-
-let a=23
-let b=45
-let res="+"
-
-switch(res){
-  case "+":a+b; break;
-  case "-":a-b; break;
-  case "-":a*b; break;
-  case "-":a/b; break;
-  default: console.log("Bunday amal mavjud emas"); break;
-}
-
-console.log()
-
-
 // let oy=9
 
 // switch (oy) {
@@ -349,160 +332,160 @@ console.log()
 // masala 9
 
 
-// let d=12
-// let m=6
+let d=12
+let m=6
 
-// let res=""
+let res=""
 
-// switch (m) {
-//   case 1: {
-//     if (d > 0 && d < 31) {
-//       d++;
-//       res = d + " - yanvar";
-//     } else if (d == 31) {
-//       d = 1;
-//       res = d + " fevral";
-//     } else {
-//       res = " Yanvar oyida " + d + " mavjud emas :";
-//     }
-//     break;
-//   }
-//   case 2: {
-//     if (d > 0 && d < 28) {
-//       d++;
-//       res = d + " - fevral";
-//     } else if (d == 28) {
-//       d = 1;
-//       res = d + " - Mart";
-//     } else {
-//       res = " Fevral oyida " + d + " mavjud emas :";
-//     }
-//     break;
-//   }
-//   case 3: {
-//     if (d > 0 && d < 31) {
-//       d++;
-//       res = d + " - Mart";
-//     } else if (d == 31) {
-//       d = 1;
-//       res = d + " aprel";
-//     } else {
-//       res = " Mart oyida" + d + " mavjud emas :";
-//     }
-//     break;
-//   }
-//   case 4: {
-//     if (d > 0 && d < 30) {
-//       d++;
-//       res = d + " - aprel";
-//     } else if (d == 30) {
-//       d = 1;
-//       res = d + " - may";
-//     } else {
-//       res = " Aprel oyida" + d + "mavjud emas :";
-//     }
-//     break;
-//   }
-//   case 5: {
-//     if (d > 0 && d < 31) {
-//       d++;
-//       res = d + " - may";
-//     } else if (d == 31) {
-//       d = 1;
-//       res = d + " - iyun";
-//     } else {
-//       res = " may oyida" + d + "mavjud emas :";
-//     }
-//     break;
-//   }
-//   case 6: {
-//     if (d > 0 && d < 30) {
-//       d++;
-//       res = d + " - iyun";
-//     } else if (d == 30) {
-//       d = 1;
-//       res = d + " iyul";
-//     } else {
-//       res = " iyun oyida" + d + "mavjud emas :";
-//     }
-//     break;
-//   }
-//   case 7: {
-//     if (d > 0 && d < 31) {
-//       d++;
-//       res = d + " - iyul";
-//     } else if (d == 31) {
-//       d = 1;
-//       res = d + " - avgust";
-//     } else {
-//       res = " iyul oyida" + d + "mavjud emas :";
-//     }
-//     break;
-//   }
-//   case 8: {
-//     if (d > 0 && d < 31) {
-//       d++;
-//       res = d + " - avgust";
-//     } else if (d == 31) {
-//       d = 1;
-//       res = d + " sentabr";
-//     } else {
-//       res = " avgust oyida" + d + "mavjud emas :";
-//     }
-//     break;
-//   }
-//   case 9:{
-//     if (d > 0 && d < 30) {
-//       d++;
-//       res = d + " - sentabr";
-//     } else if (d == 30) {
-//       d = 1;
-//       res = d + " avgust";
-//     } else {
-//       res = " Sentabr oyida" + d + "mavjud emas :";
-//     }
-//     break;
-//   }
-//   case 10: {
-//     if (d > 0 && d < 31) {
-//       d++;
-//       res = d + " - oktabr";
-//     } else if (d == 31) {
-//       d = 1;
-//       res = d + " sentabr";
-//     } else {
-//       res = " oktabr oyida" + d + "mavjud emas :";
-//     }
-//     break;
-//   }
-//   case 11: {
-//     if (d > 0 && d < 30) {
-//       d++;
-//       res = d + " - noyabr";
-//     } else if (d == 30) {
-//       d = 1;
-//       res = d + " oktabr";
-//     } else {
-//       res = " noyabr oyida" + d + "mavjud emas :";
-//     }
-//     break;
-//   }
-//   case 12: {
-//     if (d > 0 && d < 31) {
-//       d++;
-//       res = d + " - dekabr";
-//     } else if (d == 31) {
-//       d = 1;
-//       res = d + " yanvar";
-//     } else {
-//       res = " Dekabr oyida" + d + "mavjud emas :";
-//     }
-//     break;
-//   }
-//   default: res=" Bunday oy mavjud emas :";
-// }
+switch (m) {
+  case 1: {
+    if (d > 0 && d < 31) {
+      d++;
+      res = d + " - yanvar";
+    } else if (d == 31) {
+      d = 1;
+      res = d + " fevral";
+    } else {
+      res = " Yanvar oyida " + d + " mavjud emas :";
+    }
+    break;
+  }
+  case 2: {
+    if (d > 0 && d < 28) {
+      d++;
+      res = d + " - fevral";
+    } else if (d == 28) {
+      d = 1;
+      res = d + " - Mart";
+    } else {
+      res = " Fevral oyida " + d + " mavjud emas :";
+    }
+    break;
+  }
+  case 3: {
+    if (d > 0 && d < 31) {
+      d++;
+      res = d + " - Mart";
+    } else if (d == 31) {
+      d = 1;
+      res = d + " aprel";
+    } else {
+      res = " Mart oyida" + d + " mavjud emas :";
+    }
+    break;
+  }
+  case 4: {
+    if (d > 0 && d < 30) {
+      d++;
+      res = d + " - aprel";
+    } else if (d == 30) {
+      d = 1;
+      res = d + " - may";
+    } else {
+      res = " Aprel oyida" + d + "mavjud emas :";
+    }
+    break;
+  }
+  case 5: {
+    if (d > 0 && d < 31) {
+      d++;
+      res = d + " - may";
+    } else if (d == 31) {
+      d = 1;
+      res = d + " - iyun";
+    } else {
+      res = " may oyida" + d + "mavjud emas :";
+    }
+    break;
+  }
+  case 6: {
+    if (d > 0 && d < 30) {
+      d++;
+      res = d + " - iyun";
+    } else if (d == 30) {
+      d = 1;
+      res = d + " iyul";
+    } else {
+      res = " iyun oyida" + d + "mavjud emas :";
+    }
+    break;
+  }
+  case 7: {
+    if (d > 0 && d < 31) {
+      d++;
+      res = d + " - iyul";
+    } else if (d == 31) {
+      d = 1;
+      res = d + " - avgust";
+    } else {
+      res = " iyul oyida" + d + "mavjud emas :";
+    }
+    break;
+  }
+  case 8: {
+    if (d > 0 && d < 31) {
+      d++;
+      res = d + " - avgust";
+    } else if (d == 31) {
+      d = 1;
+      res = d + " sentabr";
+    } else {
+      res = " avgust oyida" + d + "mavjud emas :";
+    }
+    break;
+  }
+  case 9:{
+    if (d > 0 && d < 30) {
+      d++;
+      res = d + " - sentabr";
+    } else if (d == 30) {
+      d = 1;
+      res = d + " avgust";
+    } else {
+      res = " Sentabr oyida" + d + "mavjud emas :";
+    }
+    break;
+  }
+  case 10: {
+    if (d > 0 && d < 31) {
+      d++;
+      res = d + " - oktabr";
+    } else if (d == 31) {
+      d = 1;
+      res = d + " sentabr";
+    } else {
+      res = " oktabr oyida" + d + "mavjud emas :";
+    }
+    break;
+  }
+  case 11: {
+    if (d > 0 && d < 30) {
+      d++;
+      res = d + " - noyabr";
+    } else if (d == 30) {
+      d = 1;
+      res = d + " oktabr";
+    } else {
+      res = " noyabr oyida" + d + "mavjud emas :";
+    }
+    break;
+  }
+  case 12: {
+    if (d > 0 && d < 31) {
+      d++;
+      res = d + " - dekabr";
+    } else if (d == 31) {
+      d = 1;
+      res = d + " yanvar";
+    } else {
+      res = " Dekabr oyida" + d + "mavjud emas :";
+    }
+    break;
+  }
+  default: res=" Bunday oy mavjud emas :";
+}
 
-// console.log(res)
+console.log(res)
 
 // masala 10
 
