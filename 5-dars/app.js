@@ -329,45 +329,6 @@
 
 // console.log(res)
 
-
-function nextDate(M, D) {
-    const daysInMonth = {
-        1: 31,
-        2: 28, // kabisa bo'lmagan yil
-        3: 31,
-        4: 30,
-        5: 31,
-        6: 30,
-        7: 31,
-        8: 31,
-        9: 30,
-        10: 31,
-        11: 30,
-        12: 31
-    };
-
-    // Kunni 1 taga oshiramiz
-    D++;
-
-    // Agar kun oydagi maksimal kundan oshsa, keyingi oyni boshlaymiz
-    if (D > daysInMonth[M]) {
-        D = 1; // yangi oy boshlandi
-        M++;   // oyni oshiramiz
-        if (M > 12) {
-            M = 1; // yil boshi (lekin yil ko‘rsatilmagan, shunchaki 1-oyga o‘tadi)
-        }
-    }
-
-    console.log(`Keyingi sana: ${D}-${M}`);
-}
-
-// Test
-nextDate(12, 6); // 1-3
-nextDate(30, 4); // 1-5
-nextDate(31, 12); // 1-1
-nextDate(15, 7); // 16-7
-
-
 // masala 9
 
 

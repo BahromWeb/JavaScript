@@ -1,5 +1,4 @@
 
-
 // for sikl
 
 // for masala 1
@@ -612,11 +611,11 @@
 
 // for masala 40 
 
-let a=3
-let b=7
+// let a=3
+// let b=7
 
-for(let i=a; i<=b; i++){
-    for(let j=1; j<=i-a+1; j++){
-        console.log(i)
-    }
-}
+// for(let i=a; i<=b; i++){
+//     for(let j=1; j<=i-a+1; j++){
+//         console.log(i)
+//     }
+// }
