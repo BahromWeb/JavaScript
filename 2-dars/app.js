@@ -283,12 +283,3 @@
 // console.log("Joylashgan kvadratlar soni:", totalSquares);
 // console.log("Qolgan yuzasi:", remainingArea, "kvadrat birlik.");
 
-
-
-let a=86400
-
-let soat=parseInt(a/3600)
- a=a%3600
-let minut=parseInt(a/60)
-let sekund=a%60
-console.log(soat, minut, sekund)
