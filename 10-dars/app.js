@@ -1,4 +1,5 @@
-// Stringlar:
+
+// string example 
 
 // string 1
 
