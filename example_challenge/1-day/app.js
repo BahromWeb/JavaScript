@@ -117,20 +117,20 @@
 // 10-masala — Fibonacci sonlari
 // Shart: 10 ta Fibonacci sonini chiqaring (0, 1, 1, 2, 3, 5, 8...).
 
-const generateFib = (n) => {
-    if (n <= 0) {
-        return [];
-    }
-    if (n === 1) {
-        return [0];
-    }
+// const generateFib = (n) => {
+//     if (n <= 0) {
+//         return [];
+//     }
+//     if (n === 1) {
+//         return [0];
+//     }
 
-    let fib = [0, 1];
-    for (let i = 2; i < n; i++) {
-        fib[i] = fib[i - 1] + fib[i - 2]; 
-    }
-    return fib;
-};
+//     let fib = [0, 1];
+//     for (let i = 2; i < n; i++) {
+//         fib[i] = fib[i - 1] + fib[i - 2]; 
+//     }
+//     return fib;
+// };
 
-console.log(generateFib(10));
+// console.log(generateFib(10));
 // Natija: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
