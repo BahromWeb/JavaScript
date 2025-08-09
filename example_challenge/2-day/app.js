@@ -56,6 +56,52 @@
 // 7-masala — Teskari massiv
 // Shart: [1, 2, 3, 4] massivini teskari tartibda chiqaring.
 
-let num=[1, 2, 3, 4]
+// let num=[1, 2, 3, 4]
 
-console.log(num.reverse())
+// console.log(num.reverse())
+
+// 8-masala — Unli harflar soni
+// Shart: "javascript" so‘zida nechta unli harf (a, e, i, o, u) borligini hisoblang.
+
+// let text = "javascript";
+// let vowels = "aeiou";
+// let count=0
+
+// for(let bor of text){
+//     if(vowels.includes(bor)){
+//         count++
+//     }
+// }
+
+// console.log(count)
+
+// 9-masala — Unikal elementlar
+// Shart: [1, 2, 2, 3, 4, 4, 5] massivida faqat unikal (takrorlanmagan) sonlarni chiqaring.
+
+// let nums = [1, 2, 2, 3, 4, 4, 5];
+// let unique = [];
+
+// for(let i=1; i<nums.length-1; i++){
+//     if(!unique.includes(i)){
+//         unique.push(i)
+//     }
+// }
+
+// console.log("Unikal elementlar:", unique);
+
+// 10-masala — Armstrong soni
+// Shart: 153 soni Armstrong soniga misol: har bir raqam kubining yig‘indisi o‘ziga teng (1³ + 5³ + 3³ = 153). Son Armstrong ekanini tekshiring.
+
+// let num=153
+// let digit=num.toString().split('')
+// let sum=0;
+
+//   for(let i=0; i<digit.length; i++){
+//         sum=Math.pow(Number(i), 3)
+//   }
+
+//   if(sum==num){
+//      console.log("Armstrong soni");
+//   } else {
+//     console.log("Armstrong soni emas");
+//   }
