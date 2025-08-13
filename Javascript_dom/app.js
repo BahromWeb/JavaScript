@@ -1,5 +1,6 @@
 
-document.addEventListener("mousemove", (event) => {
-    console.log(`X: ${event.clientX}, Y: ${event.clientY}`);
-});
 
+
+document.getElementById('btn').onclick=function(){
+    console.log("Cliced this element")
+}
