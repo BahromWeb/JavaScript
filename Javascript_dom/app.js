@@ -1,16 +1,18 @@
 
 
-let res=0;
 
-const sum=(n)=>{
-    console.log(n)
-    if(n==1){
-        return res+=1
-    }else{
-        res+=n
-        return sum(n-1)
+let company={
+    sales:[
+        {name:"Bahrom", salary:2000},
+        {name:"Jamshid", salary:3000}
+    ], 
+    development:{
+        sites:[
+            {name:"Umid", salary:3000},
+            {name:"Alimurod", salary:5000}
+        ],
+        internals:[{name:"Jack", salary:5000}]
     }
 }
 
-sum(5)
-console.log(res)
+
