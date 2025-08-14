@@ -1,18 +1,11 @@
 
 
+console.log(1)
 
-let name="Uzbekistan"
+setTimeout(()=>{
+    console.log(2)
+}, 3000)
 
-function getName(){
-    let n="wba"
-    console.log(name)
-    return function(){
-        console.log(n)
-    }
-    
-
-}
-
-
-
-getName()
+setTimeout(()=>{
+    console.log(3)
+}, 1000)
