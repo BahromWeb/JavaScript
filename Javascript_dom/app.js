@@ -1,11 +1,7 @@
 
 
-console.log(1)
+let user={
+    name:"Webbrain",
+    title:"IT center",
+}
 
-setTimeout(()=>{
-    console.log(2)
-}, 3000)
-
-setTimeout(()=>{
-    console.log(3)
-}, 1000)
