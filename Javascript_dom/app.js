@@ -3,10 +3,14 @@
 
 
 
-let user1={name:"webbrain"}
-let user2={title:"Academy"}
 
-user1.__proto__=user2
-// Object.assign(user1, user2)
+let user={name:"Bahrom", last:"Hasanov"}
 
-console.log(user1.title)
+Object.prototype.fullName=function(){
+    console.log(this.name, this.last)
+    return this
+}
+
+user.fullName()
+
+
